@@ -1,8 +1,8 @@
 
-Overview
+**Overview**
 The Spear Phishing Detection System is a data-driven cybersecurity project designed to detect and prevent phishing emails using machine learning, anomaly detection, and cloud-based sandboxing. The system collects, processes, and analyzes email data to identify phishing patterns, malicious links, and suspicious attachments before they reach users.
 
-Data Analytics Approach
+**Data Analytics Approach**
 1.	Data Collection
 2.	Fetches real-time emails using Gmail API.
 3.	Extracts email subject, sender, body, embedded links, and attachments.
@@ -28,21 +28,36 @@ Data Analytics Approach
 23.	Sends desktop notifications and email alerts when phishing is detected.
 24.	Provides interactive data dashboards using Power BI / Streamlit to visualize phishing trends and anomalies.
 
+Technologies Used in the Spear Phishing Detection System  
 
-Technologies Used
-Category Technology Usage
-Programming	Python	Core development
-Machine Learning	Scikit-Learn (Random Forest, Isolation Forest)	Phishing detection & anomaly detection
-Data Processing	NLTK, Pandas, TF-IDF Vectorization	Cleans and processes email data
-Email Handling	Gmail API	Fetches real-time emails
-Threat Intelligence	Google Safe Browsing API	Scans URLs for malware/phishing
-Cloud Security	Cloud-Based Sandboxing	Tests email attachments before opening
-Automation	GitHub Actions	Automates phishing detection every 30 minutes
-Alerts & Notifications	Plyer, SMTP (Email Alerts)	Sends phishing warnings
-Data Visualization	Streamlit, Power BI	Displays phishing trends and analytics
+1. **Programming – Python**  
+   - Used for core development, automation, and data processing.  
+
+2. **Machine Learning – Scikit-Learn (Random Forest, Isolation Forest)**  
+   - Detects phishing emails and identifies anomalies in email patterns.  
+
+3. **Data Processing – NLTK, Pandas, TF-IDF Vectorization**  
+   - Cleans and processes email content for analysis.  
+
+4. **Email Handling – Gmail API**  
+   - Fetches real-time emails securely for scanning.  
+
+5. **Threat Intelligence – Google Safe Browsing API**  
+   - Scans URLs in emails to detect phishing and malware.  
+
+6. **Cloud Security – Cloud-Based Sandboxing**  
+   - Tests suspicious email attachments in a secure environment.  
+
+7. **Automation – GitHub Actions**  
+   - Runs phishing detection every 30 minutes automatically.  
+
+8. **Alerts & Notifications – Plyer, SMTP (Email Alerts)**  
+   - Sends warnings when phishing emails are detected.  
 
 
-Deployment
+
+
+**Deployment**
 1.	Streamlit Cloud Deployment
 2.	Hosts the phishing detection system online for free.
 3.	Provides a web interface to manually scan emails.
@@ -54,7 +69,7 @@ Deployment
 9.	Uses sandboxing technology to execute files in a secure virtual environment.
 10.	Detects malware, trojans, and harmful scripts in email attachments.
 
-Expected Outcomes
+**Expected Outcomes**
 1.	Reduced phishing attacks by detecting suspicious emails before they reach users.
 2.	Automated email analysis without manual intervention.
 3.	Real-time phishing alerts to protect businesses and individuals.
